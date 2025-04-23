@@ -130,7 +130,34 @@ console.log(flatten([1,[2,[3,4]],5])); */
 
 
 // what will be the code output
-console.log(1 + '1'); //11
+/* console.log(1 + '1'); //11
 console.log(1 - '1');// undefined
 console.log('2' - true); //undefined
-console.log('2' + true); // undefined
+console.log('2' + true); // undefined */
+
+
+// what is the difference between object.freeze() and object.seal()?
+/* 
+object freeze means it vonverts the object into immutable (unmodified).
+object seal means we can't remove the property but we can change the value */
+/* const user = {name: "abhishek"};
+Object.seal(user);
+user.name = "rahul";
+console.log(user.name) */
+
+
+//how to clone an object in javascript
+/* const obj = {a:1};
+const clone = {...obj};
+console.log(clone);
+ */
+/* what is the use of Object.entries/Object.keys/Object.values */
+// const user = { name: "abhishek", age:23}
+
+
+//what is destructuring in javaScript?
+/* const objj = { naame:"abhishek", age:24};
+const { naame, age} = objj;
+//this is the short syntax which the object or array we assign diffrent diffrent values.
+console.log(naame);
+console.log(age); */
